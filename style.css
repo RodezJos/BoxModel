@@ -1,0 +1,36 @@
+p{
+    font-size: 20px;
+}
+
+div{
+    background-color: blueviolet;
+    color: rgb(8, 236, 8);
+    display: inline-block;
+}
+
+#noPadding{
+    padding: 0;
+}
+
+ #padding{
+     padding:  50px;
+}
+
+#topPadding{
+    padding-top: 50px;
+}
+
+#leftPadding{
+    padding-left: 50px;
+}
+
+#bottomPadding{
+    padding-bottom: 50px;
+}
+
+#rightPadding{
+    padding-right: 50px;
+}
+#mixedPadding{
+  padding: 10px 40px 100px 20px;
+}
