@@ -31,6 +31,10 @@ div{
 #rightPadding{
     padding-right: 50px;
 }
-#mixedPadding{
+ 
+/* order is always TOP RIGHT BOTTOM LEFT */
+
+ #mixedPadding{
   padding: 10px 40px 100px 20px;
 }
+
