@@ -3,8 +3,8 @@ p{
 }
 
 div{
-    background-color: blueviolet;
-    color: rgb(8, 236, 8);
+    background-color:gray;
+    color: purple;
     display: inline-block;
 }
 
@@ -32,9 +32,82 @@ div{
     padding-right: 50px;
 }
  
+#dottedBorder{
+    border: 2px dotted grey;
+}
+
+#dashedBorder{
+    border: 5px dashed purple;
+}
+
+
+#solidBorder{
+    border: 5px solid blue;
+}
+
+#doubleBorder{
+    border: 4px double white;
+}
+
+#groveBorder{
+    border: 5px groove yellow;
+}
+
+
+#ridgeBorder{
+    border: 5px ridge purple;
+}
+
+
+#insetBorder{
+    border: 10px inset gray;
+}
+
+#outsetBorder{
+    border: 10px outset gray;
+}
+
+
+
 /* order is always TOP RIGHT BOTTOM LEFT */
 
  #mixedPadding{
   padding: 10px 40px 100px 20px;
+  border-color: chartreuse;
+  border-style: groove outset inset ridge
 }
 
+.row1{
+    width: 33%;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.row2{
+    width: 33%;
+    border: 2px solid black;
+    margin-top: 20px
+}
+
+#center{
+    display: block;
+    width: 25%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+#perLeftMargin{
+    height: 200px;
+    width: 35%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+#perRightMargin{
+    height: 200px;
+    width: 35%;
+}
