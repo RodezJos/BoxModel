@@ -136,8 +136,8 @@ div{
 
 
 
-
-section h3{
+/* SELECT ELEMENTS INSIDE OTHER ELEMETS */
+/*section h3{
     font-size: 42px;
 }
 
@@ -149,5 +149,9 @@ section header h3{
 section article p{
     color: goldenrod
 
-}
+}*/
 
+/*SELECT MULTIPLE ELEMET*/
+section h3, section{
+    color: goldenrod;
+}
