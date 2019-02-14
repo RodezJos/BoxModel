@@ -34,7 +34,7 @@ div{
 }
  
 #dottedBorder{
-    border: 2px dotted grey;
+    border: 2px dotted yellowgreen;
 }
 
 #dashedBorder{
@@ -47,11 +47,11 @@ div{
 }
 
 #doubleBorder{
-    border: 4px double white;
+    border: 4px double black;
 }
 
 #groveBorder{
-    border: 5px groove yellow;
+    border: 5px groove red;
 }
 
 
@@ -61,11 +61,11 @@ div{
 
 
 #insetBorder{
-    border: 10px inset gray;
+    border: 10px inset red;
 }
 
 #outsetBorder{
-    border: 10px outset gray;
+    border: 10px outset rebeccapurple;
 }
 
 
@@ -132,3 +132,22 @@ div{
 
     border: 3px ridge fuchsia; 
 }
+
+
+
+
+
+section h3{
+    font-size: 42px;
+}
+
+section header h3{
+    font-size: 30px;
+}
+
+
+section article p{
+    color: goldenrod
+
+}
+
