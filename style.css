@@ -30,6 +30,7 @@ div{
 
 #rightPadding{
     padding-right: 50px;
+    
 }
  
 #dottedBorder{
@@ -110,4 +111,24 @@ div{
 #perRightMargin{
     height: 200px;
     width: 35%;
+}
+
+
+
+.defaultPadding{
+
+    padding: 10px;
+
+}
+
+
+.defaultMargin{
+
+    margin: 0px 30px;
+
+}
+
+.defaultBorder{
+
+    border: 3px ridge fuchsia; 
 }
